@@ -1,0 +1,26 @@
+# Ignorar carpetas de compilación
+bin/
+obj/
+.vs/
+
+# Archivos de usuario de Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos temporales y de logs
+*.log
+*.tmp
+
+# Configuración local o claves
+*.env
+appsettings.Development.json
+
+# Archivos de base de datos locales o backups
+*.mdf
+*.ldf
+
+# Archivos del sistema operativo
+Thumbs.db
+desktop.ini

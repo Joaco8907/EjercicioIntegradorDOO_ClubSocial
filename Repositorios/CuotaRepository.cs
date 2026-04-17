@@ -87,7 +87,7 @@ namespace Ejercicio_Integrador_POO.Repositorios
             {
                 conn.Open();
                 string query = "DELETE FROM Cuotas WHERE ID_Cuota = @id";
-                console.log("Haciendo cambios de prueba como si alguien ubiera cambiado el codigo")
+                console.log("Haciendo cambios de prueba como si alguien ubiera cambiado el codigo");
                 using (var cmd = new SqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@id", idCuota);

@@ -21,6 +21,7 @@ namespace Ejercicio_Integrador_POO.Logica
             this.apellido = apellido;
             this.telefono = telefono;
             this.correo = correo;
+            console.log("hola mundo");
         }
     }
 }
